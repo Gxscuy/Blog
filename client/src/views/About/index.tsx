@@ -64,7 +64,7 @@ export const About: FC = () => {
           <ul>
             <li>
               微博：
-              <AJump href="https://weibo.com/u/7717048370" target="_blank">
+              <AJump href="https://weibo.com/u/7722992812" target="_blank">
                 微博
               </AJump>
             </li>

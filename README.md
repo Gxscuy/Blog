@@ -18,7 +18,7 @@
 
 ## 🔗 Links
 
-[![微博](https://img.shields.io/badge/weibo-d13a34?style=for-the-badge&logo=sina-weibo&logoColor=white)](https://weibo.com/u/7717048370)
+[![微博](https://img.shields.io/badge/weibo-d13a34?style=for-the-badge&logo=sina-weibo&logoColor=white)](https://weibo.com/u/7722992812)
 [![微信](https://img.shields.io/badge/%E5%BE%AE%E4%BF%A1-95d258?style=for-the-badge&logo=wechat&logoColor=white)](https://gxscuy.com/qr-code/wx/)
 
 ## Authors
