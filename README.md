@@ -2,9 +2,9 @@
 
 **记录一些技术分享 & 学习备忘录~**
 
-## Demo
+## Blog
 
-[博客](https://gxscuy.com)
+[博客](https://www.gxscuy.com)
 
 ## 🚀 About Me
 
@@ -19,7 +19,7 @@
 ## 🔗 Links
 
 [![微博](https://img.shields.io/badge/weibo-d13a34?style=for-the-badge&logo=sina-weibo&logoColor=white)](https://weibo.com/u/7722992812)
-[![微信](https://img.shields.io/badge/%E5%BE%AE%E4%BF%A1-95d258?style=for-the-badge&logo=wechat&logoColor=white)](https://gxscuy.com/qr-code/wx/)
+[![微信](https://img.shields.io/badge/%E5%BE%AE%E4%BF%A1-95d258?style=for-the-badge&logo=wechat&logoColor=white)](https://www.gxscuy.com/qr-code/wx/)
 
 ## Authors
 
