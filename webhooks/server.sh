@@ -7,8 +7,10 @@ git reset --hard origin/main
 git clean -f
 echo "拉取最新代码"
 git pull origin main
+echo "下载npm资源包"
+npm intsall
 # --------------------------------------------------------
-# echo "停掉 然后 开启监听"
+echo "停掉 然后 开启监听"
 npm run sprd
 npm run prd
 # --------------------------------------------------------
