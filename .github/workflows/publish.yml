@@ -61,7 +61,7 @@ jobs:
           # 源目录
           SOURCE: "/"
           # 服务器ip
-          REMOTE_HOST: "www.gxscuy.com"
+          REMOTE_HOST: "49.233.119.95"
           # 用户
           REMOTE_USER: "root"
           # 目标地址
