@@ -29,12 +29,22 @@ const server = http.createServer((req, res) => {
       res.setHeader("Content-Type", "application/json");
       res.end(JSON.stringify({ ok: true }));
       if (event === "push") {
+        console.log(
+          "%c 🍜 event: ",
+          "font-size:20px;background-color: #33A5FF;color:#fff;",
+          event
+        );
         // 开始部署   部署脚本
         let payload = JSON.parse(body); // 拿到 body
         // 这里就是执行 脚本名称  可以进行替换 🍓🍓🍓 - 这里就可以 监听多个了
         let child = spawn("sh", [`./server.sh`]); // 开启子进程 执行脚本~
         let buffers = [];
         child.stdout.on("data", (buffer) => {
+          console.log(
+            "%c 🥧 buffer: ",
+            "font-size:20px;background-color: #7F2B82;color:#fff;",
+            buffer
+          );
           buffers.push(buffer);
         });
         child.stdout.on("end", () => {

@@ -86,7 +86,7 @@ export const About: FC = () => {
         <Body className="ul--style">
           <ul>
             <li>
-              <p>2021.10.23，搭建个人博客。</p>
+              <p>2021.11.13，搭建个人博客。</p>
               <p>
                 <TextTag>React + Ts</TextTag>构建PC端、
                 <TextTag>Vue + VitePress</TextTag>构建移动端、
