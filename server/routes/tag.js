@@ -120,6 +120,7 @@ module.exports = (router) => {
             {
               _id: "showAll",
               color: "#f50",
+              fontColor: "#fff",
               count: blogTotal,
               name: "Show All",
             },

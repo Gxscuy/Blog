@@ -84,7 +84,9 @@ export const Header: FC = observer(() => {
           {sApp.headerStyle?.headerTitle}
           {sApp.headerStyle?.headerTag ? (
             <HeaderTag color={sApp.headerStyle?.headerTagColor}>
-              {sApp.headerStyle?.headerTag}
+              <span style={{ color: sApp.headerStyle?.headerTagFontColor }}>
+                {sApp.headerStyle?.headerTag}
+              </span>
             </HeaderTag>
           ) : null}
         </HeaderTitle>

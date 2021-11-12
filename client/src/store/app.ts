@@ -10,6 +10,7 @@ export interface IHeaderItemModel {
   headerImg: string;
   headerTag?: string;
   headerTagColor?: string;
+  headerTagFontColor?: string;
 }
 export interface IHeaderModel {
   [propName: string]: IHeaderItemModel;
@@ -29,6 +30,7 @@ export default class SApp {
     headerImg: `url(${homeBG})`,
     headerTag: "",
     headerTagColor: "",
+    headerTagFontColor: "#fff",
   };
 
   @action CHANGE_LOADING: (status: boolean) => void = (status) => {

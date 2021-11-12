@@ -8,6 +8,7 @@ export interface ITagItem {
   _id: string;
   name: string;
   color: string;
+  fontColor: string;
   count: string | number;
 }
 

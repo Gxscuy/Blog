@@ -82,6 +82,7 @@ export const Catalogue: FC = () => {
             className={currentTagID === _tag._id ? "tag--active" : ""}
             key={_tag._id}
             color={_tag.color}
+            fontColor={_tag.fontColor}
           >
             {_tag.name}
             {_tag.count ? (
@@ -133,6 +134,7 @@ const TagBox = styled(FlexBlock)`
 `;
 const TagItem = styled.div<{
   color?: string;
+  fontColor?: string;
 }>`
   margin: 0 0.6rem 1rem 0;
   font-size: 1.4rem;
@@ -142,12 +144,12 @@ const TagItem = styled.div<{
   border-radius: 32rem;
   /* background-color: #f9f9f9; */
   &.tag--active {
-    color: #fff;
+    color: ${({ fontColor }) => fontColor || "#fff"};
     background-color: ${({ color }) => color || "red"};
   }
   &:hover {
     cursor: pointer;
-    color: #fff;
+    color: ${({ fontColor }) => fontColor || "#fff"};
     background-color: ${({ color }) => color || "red"};
   }
 

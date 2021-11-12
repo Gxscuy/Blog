@@ -33,6 +33,7 @@ export const BlogDetail: FC = () => {
         headerImg: `#333`,
         headerTag: data?.tagInfo?.name,
         headerTagColor: data?.tagInfo?.color,
+        headerTagFontColor: data?.tagInfo?.fontColor,
       });
       await sApp.CHANGE_LOADING(false);
     };

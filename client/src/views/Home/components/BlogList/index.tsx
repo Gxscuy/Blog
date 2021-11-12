@@ -87,13 +87,17 @@ export const BlogList: FC = () => {
 
               <ItemBottom>
                 <ItemTime actived={itemActive === index}>
-                  Posted by {sApp.siteTag} on
+                  Posted by {sApp.siteTag} on&nbsp;
                   {dayjs(_blog.updateDate).format("YYYY/MM/DD")}
                 </ItemTime>
                 <ItemTag>
                   {Object.keys(_blog.tagInfo as ITagItem).length ? (
                     <Tag color={(_blog.tagInfo as ITagItem).color}>
-                      {(_blog.tagInfo as ITagItem).name}
+                      <span
+                        style={{ color: (_blog.tagInfo as ITagItem).fontColor }}
+                      >
+                        {(_blog.tagInfo as ITagItem).name}
+                      </span>
                     </Tag>
                   ) : null}
                 </ItemTag>

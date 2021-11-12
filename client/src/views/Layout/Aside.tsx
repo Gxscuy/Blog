@@ -35,7 +35,7 @@ export const Aside: FC = () => {
             key={_tag._id}
             color={_tag.color}
           >
-            {_tag.name}
+            <span style={{ color: _tag.fontColor }}>{_tag.name}</span>
           </TagItem>
         ))}
       </TagBox>
