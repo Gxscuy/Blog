@@ -1,6 +1,6 @@
 module.exports = {
   title: "Gxscuy",
-  base: "/blog/",
+  base: "/",
   description: "Keep on going never give up",
   head: [
     // 添加图标
@@ -19,6 +19,10 @@ module.exports = {
       {
         text: "引导",
         items: [
+          {
+            text: "Js",
+            link: "/docs/Js/",
+          },
           {
             text: "LeetCode",
             link: "/docs/LeetCode/",
@@ -41,6 +45,16 @@ module.exports = {
         text: "首页",
         link: "/",
         collapsable: false,
+      },
+      {
+        text: "Js",
+        link: "/docs/Js/index",
+        children: [
+          {
+            text: "Array",
+            link: "/docs/Js/Array",
+          },
+        ],
       },
       {
         text: "LeetCode",
