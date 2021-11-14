@@ -6,10 +6,11 @@ import { Link } from "react-router-dom";
 
 export const About: FC = () => {
   const { sApp } = useStores();
-  const diffTime = {
-    years: new Date().getFullYear() - 2019 - 1,
-    months: new Date().getMonth() + 1 > 7,
-  };
+  // const diffTime = {
+  //   years: new Date().getFullYear() - 2019 - 1,
+  //   months: new Date().getMonth() + 1 > 7,
+  // };
+  // {diffTime.months ? diffTime.years + 1 : diffTime.years}
   useDocumentTitle(`关于我✨｜${sApp.siteTag}`);
 
   useEffect(() => {
@@ -22,11 +23,7 @@ export const About: FC = () => {
       <AboutItem>
         <Title>关于博主</Title>
         <Body className="text">
-          <p>
-            郭霖，19年毕业，
-            {diffTime.months ? diffTime.years + 1 : diffTime.years}
-            年经验的前端小白一枚。
-          </p>
+          <p>郭霖，2019年毕业，前端研发工程师。</p>
           <p>目前在 新浪微博广告部门。</p>
           <p>
             -- 从事博文推广<TextTag>( Vue )</TextTag>
